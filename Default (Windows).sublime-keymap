@@ -1,4 +1,6 @@
 [// Uncomment and copy to your User bindings to enable
+//{"keys": ["alt+3"]              	,"command":"move_tab"	,"args":{ "position": -1  }},
+//{"keys": ["alt+4"]              	,"command":"move_tab"	,"args":{ "position":  0  }},
 //{"keys": ["ctrl+shift+end"]     	,"command":"move_tab"	,"args":{ "position": -1  }},
 //{"keys": ["ctrl+shift+home"]    	,"command":"move_tab"	,"args":{ "position":  0  }},
 //{"keys": ["ctrl+shift+pageup"]  	,"command":"move_tab"	,"args":{ "position":"-1" }},
