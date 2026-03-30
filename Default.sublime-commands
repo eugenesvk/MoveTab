@@ -3,7 +3,10 @@
 {"caption":"Move Tab: ← Right"       	,"command":"move_tab"	,"args":{"position":"+1"},},
 {"caption":"Move Tab: First position"	,"command":"move_tab"	,"args":{"position":  0 },},
 {"caption":"Move Tab: Last position" 	,"command":"move_tab"	,"args":{"position": -1 },},
-{"caption":"Preferences: MoveTab Key Bindings","command":"edit_settings","args":{
+{"caption":"Preferences: MoveTab Key Bindings","command":"chain","args":{"commands":[
+  {"command":"open_file","args":{"file":"${packages}/MoveTab/Default (${platform}).sublime-keymap"}},
+  {"command":"open_file","args":{"file":"${packages}/User/Default (${platform}).sublime-keymap"   }},]}},
+{"caption":"Preferences: MoveTab Key Bindings (side-by-side)","command":"edit_settings","args":{
   "base_file": "${packages}/MoveTab/Default (${platform}).sublime-keymap",
   "default"  : "[\n\t$0\n]",},},
 ]
