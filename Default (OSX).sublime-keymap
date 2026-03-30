@@ -1,36 +1,9 @@
-[
-	// Uncomment and copy to your User bindings to enable.
-	// {
-	// 	"keys": ["super+alt+shift+down"],
-	// 	"command": "move_tab",
-	// 	"args": { "position": -1 }
-	// },
-	// {
-	// 	"keys": ["super+alt+shift+up"],
-	// 	"command": "move_tab",
-	// 	"args": { "position": 0 }
-	// },
-
-	{
-		"keys": ["super+alt+shift+left"],
-		"command": "move_tab",
-		"args": { "position": "-1" }
-	},
-	{
-		"keys": ["super+alt+shift+right"],
-		"command": "move_tab",
-		"args": { "position": "+1" }
-	},
-
-	// Allow cycling at the beginnig or end of the group
-	// {
-	// 	"keys": ["super+alt+shift+left"],
-	// 	"command": "move_tab",
-	// 	"args": { "position": "-1", "cycle": true }
-	// },
-	// {
-	// 	"keys": ["super+alt+shift+right"],
-	// 	"command": "move_tab",
-	// 	"args": { "position": "+1", "cycle": true }
-	// },
+[// Uncomment and copy to your User bindings to enable
+//{"keys": ["super+alt+shift+down"] 	,"command":"move_tab"	,"args":{ "position": -1  }},
+//{"keys": ["super+alt+shift+up"]   	,"command":"move_tab"	,"args":{ "position":  0  }},
+//{"keys": ["super+alt+shift+left"] 	,"command":"move_tab"	,"args":{ "position":"-1" }},
+//{"keys": ["super+alt+shift+right"]	,"command":"move_tab"	,"args":{ "position":"+1" }},
+// Allow cycling at the beginnig or end of the group
+//{"keys": ["super+alt+shift+left"] 	,"command":"move_tab"	,"args":{ "position": "-1", "cycle": true }},
+//{"keys": ["super+alt+shift+right"]	,"command":"move_tab"	,"args":{ "position": "+1", "cycle": true }},
 ]
