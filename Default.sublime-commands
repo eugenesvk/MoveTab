@@ -1,30 +1,9 @@
 [
-    {
-        "caption": "Move Tab: To the left",
-        "command": "move_tab",
-        "args": { "position": "-1" },
-    },
-    {
-        "caption": "Move Tab: To the right",
-        "command": "move_tab",
-        "args": { "position": "+1" },
-    },
-    {
-        "caption": "Move Tab: To first position",
-        "command": "move_tab",
-        "args": { "position": 0 },
-    },
-    {
-        "caption": "Move Tab: To last position",
-        "command": "move_tab",
-        "args": { "position": -1 },
-    },
-    {
-        "caption": "Preferences: MoveTab Key Bindings",
-        "command": "edit_settings",
-        "args": {
-            "base_file": "${packages}/MoveTab/Default (${platform}).sublime-keymap",
-            "default": "[\n\t$0\n]",
-        },
-    },
+{"caption":"Move Tab: ← Left"        	,"command":"move_tab"	,"args":{"position":"-1"},},
+{"caption":"Move Tab: ← Right"       	,"command":"move_tab"	,"args":{"position":"+1"},},
+{"caption":"Move Tab: First position"	,"command":"move_tab"	,"args":{"position":  0 },},
+{"caption":"Move Tab: Last position" 	,"command":"move_tab"	,"args":{"position": -1 },},
+{"caption":"Preferences: MoveTab Key Bindings","command":"edit_settings","args":{
+  "base_file": "${packages}/MoveTab/Default (${platform}).sublime-keymap",
+  "default"  : "[\n\t$0\n]",},},
 ]
